@@ -1,0 +1,17 @@
+.center-rectangle {
+  height: 80%;
+  aspect-ratio: 1 / 1;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+
+

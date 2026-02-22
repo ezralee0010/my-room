@@ -1,0 +1,77 @@
+
+.laptop {
+  position: absolute;
+  cursor: pointer;
+}
+
+.laptop .laptop-base {
+  position: absolute;
+  height: 70px;
+  width: 148px;
+  border-radius: 5px;
+  transform: translate(230px, 190px) skewX(-30deg);
+  background: gray;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.laptop .laptop-base-under-bottom {
+  position: absolute;
+  height: 10px;
+  width: 145px;
+  border-radius: 0px 0px 3px 3px;
+  transform: translate(212px, 258px);
+  background: gray;
+}
+
+.laptop .laptop-base-under-side {
+  position: absolute;
+  height: 74px;
+  width: 8px;
+  border-radius: 3px 3px 3px 3px;
+  transform: translate(371px, 192px) skewX(-30deg) skewY(40deg);
+  background: gray;
+}
+
+.laptop .laptop-top {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  background: black;
+  border-radius: 10px;
+  transform: translate(255px,100px) skewX(-10deg);
+}
+
+.laptop .laptop-screen {
+  position: absolute;
+  height: 70px;
+  width: 130px;
+  background: white;
+  transform: translate(265px,110px) skewX(-10deg);
+}
+
+.laptop .laptop-top-back {
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  background: gray;
+  border-radius: 10px;
+  transform: translate(258px,98px) skewX(-10deg);
+}
+
+.laptop .laptop-keyboard {
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  transform: translate(250px, 200px) skewX(-30deg);
+  background: black;
+}
+
+.laptop .laptop-mousepad {
+  position: absolute;
+  height: 15px;
+  width: 40px;
+  border-radius: 5px;
+  transform: translate(270px, 242px) skewX(-30deg);
+  background: black;
+}
