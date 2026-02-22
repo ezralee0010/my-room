@@ -1,7 +1,19 @@
+.laptop .laptop-top,
+.laptop .laptop-screen,
+.laptop .laptop-top-back,
+.laptop .laptop-base,
+.laptop .laptop-base-under-bottom,
+.laptop .laptop-base-under-side,
+.laptop .laptop-keyboard,
+.laptop .laptop-mousepad {
+  background: white;      
+  border: 2px solid black; 
+  box-shadow: none;       
+}
 
 .laptop {
   position: absolute;
-  cursor: pointer;
+  cursor: pointer;      
 }
 
 .laptop .laptop-base {
@@ -10,8 +22,6 @@
   width: 148px;
   border-radius: 5px;
   transform: translate(230px, 190px) skewX(-30deg);
-  background: gray;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .laptop .laptop-base-under-bottom {
@@ -20,7 +30,6 @@
   width: 145px;
   border-radius: 0px 0px 3px 3px;
   transform: translate(212px, 258px);
-  background: gray;
 }
 
 .laptop .laptop-base-under-side {
@@ -29,14 +38,12 @@
   width: 8px;
   border-radius: 3px 3px 3px 3px;
   transform: translate(371px, 192px) skewX(-30deg) skewY(40deg);
-  background: gray;
 }
 
 .laptop .laptop-top {
   position: absolute;
   height: 100px;
   width: 150px;
-  background: black;
   border-radius: 10px;
   transform: translate(255px,100px) skewX(-10deg);
 }
@@ -45,7 +52,6 @@
   position: absolute;
   height: 70px;
   width: 130px;
-  background: white;
   transform: translate(265px,110px) skewX(-10deg);
 }
 
@@ -53,7 +59,6 @@
   position: absolute;
   height: 100px;
   width: 150px;
-  background: gray;
   border-radius: 10px;
   transform: translate(258px,98px) skewX(-10deg);
 }
@@ -64,7 +69,6 @@
   width: 110px;
   border-radius: 5px;
   transform: translate(250px, 200px) skewX(-30deg);
-  background: black;
 }
 
 .laptop .laptop-mousepad {
@@ -73,5 +77,13 @@
   width: 40px;
   border-radius: 5px;
   transform: translate(270px, 242px) skewX(-30deg);
-  background: black;
 }
+
+.laptop.active .laptop-top {background: black; border: none;}
+.laptop.active .laptop-screen {background: white; border: none;}
+.laptop.active .laptop-top-back {background: gray; border: none;}
+.laptop.active .laptop-base {background: gray; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); border: none;}
+.laptop.active .laptop-base-under-bottom {background: gray; border: none;}
+.laptop.active .laptop-base-under-side {background: gray; border: none;}
+.laptop.active .laptop-keyboard {background: black; border: none;}
+.laptop.active .laptop-mousepad {background: black; border: none;}
