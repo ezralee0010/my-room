@@ -4,7 +4,7 @@
   fill: white;
   stroke: black;
   stroke-width: 3;
-  transform: translate(680px, 140px);
+  transform: translate(-50px, 140px);
 }
 
 .flag:hover {

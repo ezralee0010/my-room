@@ -1,0 +1,12 @@
+.screen {
+  position: absolute;
+  cursor: pointer;
+}
+
+.screen .screen-main {
+  position: absolute;
+  fill: white;
+  stroke: black;
+  stroke-width: 0.5;
+  transform: translate(620px, 120px);
+}
