@@ -1,9 +1,16 @@
 .flag {
   position: absolute;
   cursor: pointer;
+  fill: transparent;
+  stroke: black;
+  stroke-width: 3;
 }
 
-.flag.active polygon {
+.flag:hover {
+  fill: yellow;
+}
+
+.flag.active {
   fill: maroon;
   stroke: maroon;
 }
