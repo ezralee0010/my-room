@@ -26,6 +26,12 @@ const data = {
     pages: [
       'For some reason I have a Disney rug in my room? The design isn\'t the same, but it looks something like this.'
     ]
+  },
+  flag: {
+    title: 'This is flag',
+    pages: [
+      'flag of UChicago'
+    ]
   }
 }
 

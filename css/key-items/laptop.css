@@ -76,11 +76,37 @@
   transform: translate(270px, 242px) skewX(-30deg);
 }
 
-.laptop.active .laptop-top {background: black; border: none;}
-.laptop.active .laptop-screen {background: white; border: none;}
-.laptop.active .laptop-top-back {background: gray; border: none;}
-.laptop.active .laptop-base {background: gray; box-shadow: 5px 5px 10px rgba(0,0,0,0.5); border: none;}
-.laptop.active .laptop-base-under-bottom {background: gray; border: none;}
-.laptop.active .laptop-base-under-side {background: gray; border: none;}
-.laptop.active .laptop-keyboard {background: black; border: none;}
-.laptop.active .laptop-mousepad {background: black; border: none;}
+
+.laptop.active .laptop-top {
+  background: black; 
+  border: none;
+}
+.laptop.active .laptop-screen {
+  background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  border: none;
+}
+.laptop.active .laptop-top-back {
+  background: gray; 
+  border: none;
+}
+.laptop.active .laptop-base {
+  background: gray; 
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+  border: none;
+}
+.laptop.active .laptop-base-under-bottom {
+  background: gray; 
+  border: none;
+}
+.laptop.active .laptop-base-under-side {
+  background: gray; 
+  border: none;
+}
+.laptop.active .laptop-keyboard {
+  background: black; 
+  border: none;
+}
+.laptop.active .laptop-mousepad {
+  background: black; 
+  border: none;
+}

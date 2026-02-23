@@ -10,7 +10,7 @@
   background: white;
   border: 2px black solid;
   border-radius: 41% 59% 38% 62% / 64% 33% 67% 36%;
-  transform: translate(10px, 300px);
+  transform: translate(10px, 300px) skewX(-10deg);
 }
 
 .rug.active {
