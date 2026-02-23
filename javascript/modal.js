@@ -32,6 +32,12 @@ const data = {
     pages: [
       'flag of UChicago'
     ]
+  },
+  table: {
+    title: 'My Table',
+    pages: [
+      'hi'
+    ]
   }
 }
 

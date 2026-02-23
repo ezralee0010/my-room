@@ -1,0 +1,54 @@
+.table * {
+  background: white;
+}
+
+.table:hover * {
+  background: yellow;
+}
+
+.table {
+  position: absolute;
+  cursor: pointer;
+}
+
+.table .table-top {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  border-top: 2px solid black;
+  transform: translate(85px, 650px);
+}
+
+.table .table-top-left {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  border-left: 2px solid black;
+  transform: translate(48px, 661px) rotate(20deg);
+}
+
+.table .table-top-right {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  border-right: 2px solid black;
+  transform: translate(622px, 661px) rotate(-20deg);
+}
+
+.table.active .table-top {
+  background: repeating-linear-gradient(45deg, #76605f, #76605f 5px, #423736 5px, #423736 25px);
+  border: none;
+}
+
+.table.active .table-top-left {
+  background: repeating-linear-gradient(25deg, #76605f, #76605f 5px, #423736 5px, #423736 25px);
+  background-position: 0 -16px;
+  border: none;
+}
+
+.table.active .table-top-right {
+  background: repeating-linear-gradient(65deg, #76605f, #76605f 5px, #423736 5px, #423736 25px);
+  background-position: 0 -23px;
+  border: none;
+}
+
