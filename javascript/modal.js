@@ -12,6 +12,12 @@ const data = {
       '<iframe src="https://ezralee0010.github.io/css-art/" width="300" height="300" frameborder="0" allowfullscreen=""> </iframe>', 
       '<iframe frameborder="0" src="https://itch.io/embed-upload/7878672?color=333333" allowfullscreen="" width="640" height="370"><a href="https://ezralee.itch.io/dating-sim-new-student-at-stuy">Play Dating Simulator</a></iframe>'
     ]
+  },
+  cd: {
+    title: 'music stuff',
+    pages: [
+      'hi'
+    ]
   }
 }
 
