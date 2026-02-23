@@ -1,14 +1,11 @@
-.laptop .laptop-top,
-.laptop .laptop-screen,
-.laptop .laptop-top-back,
-.laptop .laptop-base,
-.laptop .laptop-base-under-bottom,
-.laptop .laptop-base-under-side,
-.laptop .laptop-keyboard,
-.laptop .laptop-mousepad {
+.laptop * {
   background: white;      
   border: 2px solid black; 
   box-shadow: none;       
+}
+
+.laptop:hover * {
+  background: yellow;
 }
 
 .laptop {

@@ -1,19 +1,11 @@
-.cd-player .cd-player-main,
-.cd-player .cd,
-.cd-player .cd-player-indent,
-.cd-player .cd-center,
-.cd-player .cd-body-back-main,
-.cd-player .cd-body-back-square-top,
-.cd-player .cd-body-back-square-bottom,
-.cd-player .cd-base-1,
-.cd-player .cd-base-2 {
+.cd-player * {
   background: white;
   border: 2px solid black;
 }
-.cd-player {
-  position: absolute; 
-  cursor: pointer;
-} 
+
+.cd-player:hover * {
+  background: yellow;
+}
 
 .cd-player .cd-player-main {
   position: absolute; 

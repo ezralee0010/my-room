@@ -20,6 +20,12 @@ const data = {
     pages: [
       'hi'
     ]
+  },
+  rug: {
+    title: 'rug',
+    pages: [
+      'For some reason I have a Disney rug in my room? The design isn\'t the same, but it looks something like this.'
+    ]
   }
 }
 

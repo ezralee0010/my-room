@@ -1,3 +1,7 @@
+.rug:hover {
+  background: yellow;
+}
+
 .rug {
   position: absolute;
   cursor: pointer; 

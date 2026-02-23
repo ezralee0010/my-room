@@ -1,12 +1,11 @@
-.journal .journal-page-1,
-.journal .journal-page-2,
-.journal .journal-page-3,
-.journal .journal-page-4,
-.journal .journal-exterior-1,
-.journal .journal-exterior-2 {
+.journal * {
   background: white;      
   border: 2px solid black; 
   box-shadow: none;  
+}
+
+.journal:hover * {
+  background: yellow;
 }
 
 .journal {
