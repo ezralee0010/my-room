@@ -1,1 +1,9 @@
-f
+.flag {
+  position: absolute;
+  cursor: pointer;
+}
+
+.flag.active polygon {
+  fill: maroon;
+  stroke: maroon;
+}
