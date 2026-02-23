@@ -7,6 +7,12 @@
   background: yellow;
 }
 
+.cd-player {
+  position: absolute;
+  cursor: pointer;
+  transform: translate(100px, 500px);
+}
+
 .cd-player .cd-player-main {
   position: absolute; 
   height: 200px; 
@@ -20,7 +26,17 @@
   height: 150px; 
   width: 150px; 
   border-radius: 50%; 
+  animation: spin 3s linear infinite;
   transform: translate(175px, 35px) skewX(-10deg);
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(175px, 35px) skewX(-10deg) rotate(0deg);
+  }
+  100% {
+    transform: translate(175px, 35px) skewX(-10deg) rotate(360deg);
+  }
 }
 
 .cd-player .cd-player-indent {
@@ -83,7 +99,28 @@
 }
 
 .cd-player.active .cd {
-  background: skyblue;
+  background:
+    conic-gradient(
+      from 0deg,
+      red,
+      orange,
+      yellow,
+      green,
+      cyan,
+      blue,
+      violet,
+      red
+    ),
+    radial-gradient(circle at center,
+      #ffffff 0%,
+      #dddddd 40%,
+      #bbbbbb 60%,
+      #999999 75%,
+      #cccccc 90%,
+      #eeeeee 100%
+    );
+  background-blend-mode: overlay;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
   border: none;
 }
 
