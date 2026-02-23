@@ -11,7 +11,7 @@
 .journal {
   position: absolute;
   cursor: pointer;
-  transform: translate(100px, 100px);
+  transform: translate(100px, 500px) scale(0.6);
 }
 
 .journal .journal-page-1 {

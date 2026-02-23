@@ -11,6 +11,7 @@
 .laptop {
   position: absolute;
   cursor: pointer;      
+  transform: translate(320px, 450px) scale(0.7);
 }
 
 .laptop .laptop-base {

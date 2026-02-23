@@ -5,12 +5,12 @@
 .rug {
   position: absolute;
   cursor: pointer; 
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 600px;
   background: white;
   border: 2px black solid;
   border-radius: 41% 59% 38% 62% / 64% 33% 67% 36%;
-  transform: translate(10px, 300px) skewX(-10deg);
+  transform: translate(260px, 320px) rotate(-90deg);
 }
 
 .rug.active {

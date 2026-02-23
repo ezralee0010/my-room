@@ -1,9 +1,10 @@
 .flag {
   position: absolute;
   cursor: pointer;
-  fill: transparent;
+  fill: white;
   stroke: black;
   stroke-width: 3;
+  transform: translate(680px, 140px);
 }
 
 .flag:hover {
