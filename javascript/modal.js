@@ -3,7 +3,9 @@ const data = {
     title: 'Junk Journal',
     pages: [
       'I made a junk journal.',
-      'It includes collage work.'
+      'It includes collage work.',
+      '<img src="images/journal-images/IMG_9732.jpeg">',
+      '<img src="images/journal-images/IMG_9735.jpeg">'
     ]
   },
   game: {
