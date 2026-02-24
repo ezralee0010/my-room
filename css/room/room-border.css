@@ -47,18 +47,37 @@
   transform: translate(300px, 0px);
 }
 
+.room:hover .square-back, 
+.room:hover .wall-l,
+.room:hover .wall-r {
+  background: yellow;
+}
+.room:hover .ceiling,
+.room:hover .floor {
+  fill: yellow;
+}
+
 .room.active .square-back {
   --s: 15px;
   --c1: #774f38;
   --c2: #f1d4af;
-  
   --g: conic-gradient(at 90% 40%,#0000 75%,var(--c1) 0);
   background: var(--g),var(--g) var(--s) var(--s) var(--c2);
   background-size: calc(2*var(--s)) calc(2*var(--s));
+  border: none;
 }
 .room.active .wall-l,
 .room.active .wall-r {
   background-color: #c7b7ae;
   background-size: 8px 8px;
   background-image: repeating-linear-gradient(to right, #9d9995, #9d9995 0.4px, #c7b7ae 0.4px, #c7b7ae);
+  border: none;
+}
+.room.active .floor {
+  fill: #f1d4af;
+  stroke: none;
+}
+.room.active .ceiling {
+  fill: #f1d4af;
+  stroke: none;
 }
