@@ -134,6 +134,3 @@
     0 4px 6px rgba(0, 0, 0, 0.4); 
   border: none;
 }
-.window.active:hover * {
-  background: purple;
-}

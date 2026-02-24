@@ -1,0 +1,21 @@
+.top-light {
+  position: absolute; 
+}
+
+.top-light .top-light-half-circle {
+  position: absolute; 
+  height: 30px; 
+  width: 100px; 
+  background: green;
+  border-radius: 50%; 
+  transform: translate(400px, 70px);
+}
+
+.top-light .top-light-base {
+  position: absolute; 
+  height: 30px; 
+  width: 80px; 
+  background: black;
+  border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
+  transform: translate(410px, 80px);
+}
