@@ -1,4 +1,9 @@
-.projector * {
+.projector .projector-spine,
+.projector .projector-body,
+.projector .projector-circle,
+.projector .projector-lens,
+.projector .screen-circle-top,
+.projector .screen-pipe-top {
   background: white;
   border: 2px solid black;
 }
@@ -51,6 +56,37 @@
   transform: translate(280px, -45px);
 }
 
+.projector .screen-main {
+  position: absolute;
+  fill: white;
+  stroke: black;
+  stroke-width: 0.5;
+  transform: translate(620px, 50px);
+}
+
+.projector .screen-white-part {
+  position: absolute;
+  fill: white;
+  stroke: black;
+  stroke-width: 0.5;
+  transform: translate(620px, 50px);
+}
+
+.projector .screen-circle-top {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translate(610px, 125px);
+}
+
+.projector .screen-pipe-top {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+  transform: translate(610px, 83px) rotate(-25deg);
+}
+
 .projector.active .projector-spine {
   background: silver;
   border: none;
@@ -72,3 +108,20 @@
   opacity: 0.3;
   border: none;
 }
+.projector.active .screen-main {
+  fill: black;
+  stroke: none;
+}
+.projector.active .screen-white-part {
+  stroke: none;
+}
+.projector.active .screen-circle-top {
+  background: gray;
+  border: none;
+}
+.projector.active .screen-pipe-top {
+  background: gray;
+  border: none;
+}
+
+

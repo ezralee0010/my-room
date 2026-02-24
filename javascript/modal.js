@@ -38,6 +38,12 @@ const data = {
     pages: [
       'hi'
     ]
+  }, 
+  movie: {
+    title: 'Movies',
+    pages: [
+      'So, I don\'t actually have a projector or screen in my room. But that\'s okay! I can make my online room whatever I want!'
+    ]
   }
 }
 
