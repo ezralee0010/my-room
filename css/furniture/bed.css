@@ -1,0 +1,80 @@
+.bed {
+  position: absolute;
+  cursor: pointer;
+}
+
+.bed .bed-back-pillar-1 {
+  position: absolute;
+  height: 180px;
+  width: 10px;
+  background: #5C4033;
+  transform: translate(130px, 339px) skewY(-30deg);
+}
+
+.bed .bed-back-pillar-2 {
+  position: absolute;
+  height: 180px;
+  width: 10px;
+  background: #5C4033;
+  transform: translate(55px, 382px) skewY(-30deg);
+}
+
+.bed .bed-frame {
+  position: absolute;
+  height: 150px;
+  width: 70px;
+  background: #5C4033;
+  transform: translate(63px, 390px) skewY(-30deg);
+}
+
+.bed .bed-frame-bottom {
+  position: absolute;
+  height: 30px;
+  width: 380px;
+  background: red;
+  transform: translate(63px, 520px);
+}
+
+.bed .bed-frame-end {
+  position: absolute;
+  height: 90px;
+  width: 50px;
+  background: black;
+  transform: translate(435px, 440px) skewY(-55deg);
+}
+
+.bed .mattress {
+  position: absolute;
+  height: 30px;
+  width: 370px;
+  border-radius: 5px;
+  background: yellow;
+  transform: translate(70px, 500px);
+}
+
+.bed .blanket {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  background: blue;
+  border-radius: 59% 41% 12% 88% / 70% 26% 74% 30%;
+  transform: translate(110px, 430px);
+}
+
+.bed .pillow-1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 59% 41% 77% 23% / 33% 62% 38% 67% ;
+  transform: translate(80px, 460px);
+}
+
+.bed .pillow-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: purple;
+  border-radius: 59% 41% 77% 23% / 33% 62% 38% 67% ;
+  transform: translate(120px, 440px);
+}

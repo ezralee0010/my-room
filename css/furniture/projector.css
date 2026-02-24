@@ -87,6 +87,20 @@
   transform: translate(610px, 83px) rotate(-25deg);
 }
 
+.projector:hover .projector-spine,
+.projector:hover .projector-body, 
+.projector:hover .projector-circle,
+.projector:hover .projector-lens, 
+.projector:hover .screen-circle-top,
+.projector:hover .screen-pipe-top {
+  background: yellow;
+}
+
+.projector:hover .screen-main,
+.projector:hover .screen-white-part {
+  fill: yellow;
+}
+
 .projector.active .projector-spine {
   background: silver;
   border: none;
@@ -113,6 +127,7 @@
   stroke: none;
 }
 .projector.active .screen-white-part {
+  fill: url(#catImage);
   stroke: none;
 }
 .projector.active .screen-circle-top {
