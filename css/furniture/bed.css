@@ -31,7 +31,10 @@
   position: absolute;
   height: 30px;
   width: 380px;
-  background: red;
+  background: #4A3B2E;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3);  
   transform: translate(63px, 520px);
 }
 
@@ -47,8 +50,11 @@
   position: absolute;
   height: 30px;
   width: 370px;
-  border-radius: 5px;
-  background: yellow;
+  border-radius: 3px;
+  background: #E0E0E0;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(70px, 500px);
 }
 
@@ -56,7 +62,8 @@
   position: absolute;
   width: 350px;
   height: 100px;
-  background: blue;
+  background-color: #e5e5f7;
+  background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
   border-radius: 59% 41% 12% 88% / 70% 26% 74% 30%;
   transform: translate(110px, 430px);
 }
@@ -65,8 +72,11 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: black;
+  background: #E0E0E0;
   border-radius: 59% 41% 77% 23% / 33% 62% 38% 67%;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(80px, 460px);
 }
 
@@ -74,8 +84,11 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: purple;
-  border-radius: 59% 41% 77% 23% / 33% 62% 38% 67% ;
+  background: #E0E0E0;
+  border-radius: 59% 41% 77% 23% / 33% 62% 38% 67%;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(120px, 440px);
 }
 
@@ -124,6 +137,7 @@
   height: 130px;
   width: 10px;
   background: black;
+  box-shadow: -8px 1px 15px rgba(0, 0, 0, 0.3);
   transform: translate(425px, 433px) skewY(30deg);
 }
 
@@ -132,7 +146,7 @@
   height: 15px;
   width: 80px;
   background: #4A3B2E;
-  transform: translate(411px, 438px) rotate(-55deg);
+  transform: translate(415.5px, 430px) rotate(-55deg);
 }
 
 .bed .bed-frame-end-3d-square-8 {
