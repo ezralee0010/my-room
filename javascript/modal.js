@@ -49,6 +49,18 @@ const data = {
     pages: [
       'This is my bed. GET OUT!'
     ]
+  },
+  wall: {
+    title: 'Walls',
+    pages: [
+      'hi'
+    ]
+  },
+  window: {
+    title: 'Window',
+    pages: [
+      'hi'
+    ]
   }
 }
 

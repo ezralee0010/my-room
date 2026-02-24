@@ -1,0 +1,139 @@
+.window * { 
+  border: 2px solid black;
+  background: white;
+}
+
+.window {
+  position: absolute;
+  cursor: pointer;
+  transform: scale(0.9) translate(70px, 30px);
+}
+
+.window:hover * {
+  background: yellow;
+}
+
+.window .window-main-frame {
+  position: absolute;
+  width: 150px;
+  height: 230px;
+  transform: translate(400px, 170px);
+}
+
+.window .window-border-1 {
+  position: absolute;
+  width: 130px;
+  height: 210px;
+  transform: translate(410px, 180px);
+}
+
+.window .window-glass {
+  position: absolute;
+  width: 100px;
+  height: 180px;
+  transform: translate(425px, 195px);
+}
+
+.window .window-middle-beam {
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  transform: translate(425px, 280px);
+}
+
+.window .window-panel-1 {
+  position: absolute;
+  width: 3px;
+  height: 85px;
+  transform: translate(455px, 195px);
+}
+
+.window .window-panel-2 {
+  position: absolute;
+  width: 3px;
+  height: 85px;
+  transform: translate(492px, 195px);
+}
+
+.window .window-panel-3 {
+  position: absolute;
+  width: 3px;
+  height: 85px;
+  transform: translate(455px, 290px);
+}
+
+.window .window-panel-4 {
+  position: absolute;
+  width: 3px;
+  height: 85px;
+  transform: translate(492px, 290px);
+}
+
+.window .window-base-1 {
+  position: absolute;
+  width: 170px;
+  height: 10px;
+  transform: translate(390px, 400px);
+}
+
+.window .window-base-2 {
+  position: absolute;
+  width: 140px;
+  height: 25px;
+  transform: translate(405px, 400px);
+}
+
+
+
+
+.window.active .window-main-frame {
+  background: black;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+.window.active .window-border-1 {
+  background: #2B2B2B;
+  box-shadow:
+    inset 0 6px 8px rgba(0, 0, 0, 0.25),
+    inset 0 -6px 8px rgba(0, 0, 0, 0.25),
+    inset 6px 0 8px rgba(0, 0, 0, 0.25),
+    inset -6px 0 8px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.window.active .window-glass {
+  background: white;
+  box-shadow:
+    inset 0 6px 8px rgba(0, 0, 0, 0.25),
+    inset 0 -6px 8px rgba(0, 0, 0, 0.25),
+    inset 6px 0 8px rgba(0, 0, 0, 0.25),
+    inset -6px 0 8px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.window.active .window-middle-beam {
+  background: #2B2B2B;
+  box-shadow:
+    0 -4px 6px rgba(0, 0, 0, 0.4),
+    0 4px 6px rgba(0, 0, 0, 0.4); 
+  border: none;
+}
+.window.active .window-panel-1,
+.window.active .window-panel-2,
+.window.active .window-panel-3,
+.window.active .window-panel-4 {
+  background: #2B2B2B;
+  box-shadow:
+    -3px 0 4px rgba(0, 0, 0, 0.4),
+     3px 0 4px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+.window.active .window-base-1, 
+.window.active .window-base-2 {
+  background: gray;
+  box-shadow:
+    0 -4px 6px rgba(0, 0, 0, 0.4),
+    0 4px 6px rgba(0, 0, 0, 0.4); 
+  border: none;
+}
+.window.active:hover * {
+  background: purple;
+}
