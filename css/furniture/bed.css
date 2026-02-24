@@ -1,3 +1,13 @@
+.bed * {
+  background: white;
+  border: 2px solid black;
+  box-shadow: none;
+}
+
+.bed:hover * {
+  background: yellow;
+}
+
 .bed {
   position: absolute;
   cursor: pointer;
@@ -7,7 +17,6 @@
   position: absolute;
   height: 180px;
   width: 10px;
-  background: #5C4033;
   transform: translate(130px, 339px) skewY(-30deg);
 }
 
@@ -15,7 +24,6 @@
   position: absolute;
   height: 180px;
   width: 10px;
-  background: #5C4033;
   transform: translate(55px, 382px) skewY(-30deg);
 }
 
@@ -23,18 +31,13 @@
   position: absolute;
   height: 150px;
   width: 70px;
-  background: #5C4033;
   transform: translate(63px, 390px) skewY(-30deg);
 }
 
 .bed .bed-frame-bottom {
   position: absolute;
   height: 30px;
-  width: 380px;
-  background: #4A3B2E;
-  box-shadow:
-    -8px 0 10px rgba(0,0,0,0.3), 
-    0 -8px 10px rgba(0,0,0,0.3);  
+  width: 380px; 
   transform: translate(63px, 520px);
 }
 
@@ -42,7 +45,6 @@
   position: absolute;
   height: 90px;
   width: 50px;
-  background: #5C4033;
   transform: translate(435px, 440px) skewY(-55deg);
 }
 
@@ -51,10 +53,6 @@
   height: 30px;
   width: 370px;
   border-radius: 3px;
-  background: #E0E0E0;
-  box-shadow:
-    -8px 0 10px rgba(0,0,0,0.3), 
-    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(70px, 500px);
 }
 
@@ -62,8 +60,6 @@
   position: absolute;
   width: 350px;
   height: 100px;
-  background-color: #e5e5f7;
-  background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
   border-radius: 59% 41% 12% 88% / 70% 26% 74% 30%;
   transform: translate(110px, 430px);
 }
@@ -72,11 +68,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: #E0E0E0;
   border-radius: 59% 41% 77% 23% / 33% 62% 38% 67%;
-  box-shadow:
-    -8px 0 10px rgba(0,0,0,0.3), 
-    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(80px, 460px);
 }
 
@@ -84,11 +76,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: #E0E0E0;
   border-radius: 59% 41% 77% 23% / 33% 62% 38% 67%;
-  box-shadow:
-    -8px 0 10px rgba(0,0,0,0.3), 
-    0 -8px 10px rgba(0,0,0,0.3); 
   transform: translate(120px, 440px);
 }
 
@@ -96,7 +84,6 @@
   position: absolute;
   height: 180px;
   width: 10px;
-  background: black;
   transform: translate(45.5px, 382px) skewY(30deg);
 }
 
@@ -104,7 +91,6 @@
   position: absolute;
   height: 30px;
   width: 10px;
-  background: black;
   transform: translate(119.5px, 339px) skewY(30deg);
 }
 
@@ -112,7 +98,6 @@
   position: absolute;
   height: 17px;
   width: 10px;
-  background: #5C4033;
   transform: translate(50.5px, 371px) rotate(65deg);
 }
 
@@ -120,7 +105,6 @@
   position: absolute;
   height: 17px;
   width: 10px;
-  background: #5C4033;
   transform: translate(125px, 328px) rotate(65deg);
 }
 
@@ -128,7 +112,6 @@
   position: absolute;
   height: 40px;
   width: 70px;
-  background: #4A3B2E;
   transform: translate(60px, 380px) skewY(-30deg);
 }
 
@@ -136,8 +119,6 @@
   position: absolute;
   height: 130px;
   width: 10px;
-  background: black;
-  box-shadow: -8px 1px 15px rgba(0, 0, 0, 0.3);
   transform: translate(425px, 433px) skewY(30deg);
 }
 
@@ -145,7 +126,6 @@
   position: absolute;
   height: 15px;
   width: 80px;
-  background: #4A3B2E;
   transform: translate(415.5px, 430px) rotate(-55deg);
 }
 
@@ -153,23 +133,20 @@
   position: absolute;
   height: 40px;
   width: 10px;
-  background: black;
   transform: translate(465px, 375px) skewY(30deg);
 }
 
 .bed .bed-frame-end-3d-pillar-9 {
   position: absolute;
-  height: 39px;
+  height: 129px;
   width: 10px;
-  background: #5C4033;
   transform: translate(435px, 429px) skewY(-55deg);
 }
 
 .bed .bed-frame-end-3d-pillar-10 {
   position: absolute;
-  height: 41px;
+  height: 129px;
   width: 10px;
-  background: #5C4033;
   transform: translate(475px, 372px) skewY(-55deg);
 }
 
@@ -177,7 +154,6 @@
   position: absolute;
   height: 17px;
   width: 14px;
-  background: #5C4033;
   transform: translate(428px, 418px) rotate(32deg);
 }
 
@@ -185,6 +161,150 @@
   position: absolute;
   height: 17px;
   width: 14px;
-  background: #5C4033;
   transform: translate(468px, 360px) rotate(32deg);
+}
+
+
+
+
+.bed.active .bed-back-pillar-1 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow:
+    -6px 0 10px rgba(0, 0, 0, 0.3),
+     6px 0 10px rgba(0, 0, 0, 0.3); 
+}
+.bed.active .bed-back-pillar-2 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3);
+}
+.bed.active .bed-frame {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.bed.active .bed-frame-bottom {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .bed-frame-end {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .mattress {
+  border: none;
+  background-color: #ffffff;
+  background-image: radial-gradient(#3f3e3e 0.8px, transparent 0.8px), radial-gradient(#3f3e3e 0.8px, #ffffff 0.8px);
+  background-size: 32px 32px;
+  background-position: 0 0,16px 16px;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .blanket {
+  border: none;
+  background-color: #e5e5f7;
+  background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .pillow-1 {
+  border: none;
+  background: #E0E0E0;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .pillow-2 {
+  border: none;
+  background: #E0E0E0;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .back-frame-3d-1 {
+  border: none;
+  background: black;
+}
+.bed.active .back-frame-3d-2 {
+  border: none;
+  background: black;
+}
+.bed.active .back-frame-3d-square-3 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .back-frame-3d-square-4 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .back-frame-3d-square-5 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .bed-frame-end-3d-square-6 {
+  border: none;
+  background: black;
+  box-shadow: -8px 1px 15px rgba(0, 0, 0, 0.3);
+}
+.bed.active .bed-frame-end-3d-square-7 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .bed-frame-end-3d-square-8 {
+  border: none;
+  background: black;
+}
+.bed.active .bed-frame-end-3d-pillar-9 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .bed-frame-end-3d-pillar-10 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+  box-shadow:
+    -8px 0 10px rgba(0,0,0,0.3), 
+    0 -8px 10px rgba(0,0,0,0.3); 
+}
+.bed.active .bed-frame-end-3d-square-11 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
+}
+.bed.active .bed-frame-end-3d-square-12 {
+  border: none;
+  background-color: #5C4033;
+  background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
+  background-size: 4px 100%;
 }

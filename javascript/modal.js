@@ -2,8 +2,7 @@ const data = {
   journal: {
     title: 'Junk Journal',
     pages: [
-      'I made a junk journal.',
-      'It includes collage work.',
+      'I\'ve recently just started working on a junk journal.',
       '<img src="images/journal-images/IMG_9732.jpeg">',
       '<img src="images/journal-images/IMG_9735.jpeg">'
     ]
@@ -40,9 +39,15 @@ const data = {
     ]
   }, 
   movie: {
-    title: 'Movies',
+    title: 'TV',
     pages: [
-      'So, I don\'t actually have a projector or screen in my room. But that\'s okay! I can make my online room whatever I want!'
+      'So, I don\'t actually have a projector or screen in my room. But that\'s okay! I can design my online room to be whatever I want!'
+    ]
+  },
+  bed: {
+    title: 'Bed Thoughts',
+    pages: [
+      'This is my bed. GET OUT!'
     ]
   }
 }
