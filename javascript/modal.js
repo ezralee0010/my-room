@@ -2,7 +2,7 @@ const data = {
   journal: {
     title: 'Junk Journal',
     pages: [
-      'I\'ve recently just started working on a junk journal.',
+      'I\'ve recently just started working on a junk journal. Junk journaling is basically using random materials you have accumulated and pasting them onto pages.',
       '<img src="images/journal-images/IMG_9732.jpeg">',
       '<img src="images/journal-images/IMG_9735.jpeg">'
     ]
