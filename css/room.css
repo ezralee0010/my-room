@@ -9,10 +9,9 @@
   padding: 20px;
   position: relative;
   overflow: hidden;
-
   flex-shrink: 0;
-  min-width: 700px;
-  min-height: 700px;
+  min-width: 740px;
+  min-height: 740px;
 }
 
 #room-page-center {
