@@ -86,19 +86,19 @@
 }
 
 .top-light.active .top-light-half-circle-1 {
-  background: black;
+  background: linear-gradient(90deg,rgba(174, 134, 37, 1) 0%, rgba(247, 239, 138, 1) 22%, rgba(210, 172, 71, 1) 50%, rgba(237, 201, 103, 1) 66%, rgba(174, 134, 37, 1) 100%);
   border: none;
 }
 .top-light.active .top-light-half-circle-2 {
-  background: blue;
+  background: linear-gradient(90deg,rgba(174, 134, 37, 1) 0%, rgba(247, 239, 138, 1) 22%, rgba(210, 172, 71, 1) 50%, rgba(237, 201, 103, 1) 66%, rgba(174, 134, 37, 1) 100%);
   border: none;
 }
 .top-light.active .top-light-side-1 {
-  background: black;
+  background: linear-gradient(90deg,rgba(174, 134, 37, 1) 0%, rgba(247, 239, 138, 1) 100%);
   border: none;
 }
 .top-light.active .top-light-side-2 {
-  background: black;
+  background: linear-gradient(90deg,rgba(237, 201, 103, 1) 0%, rgba(174, 134, 37, 1) 100%);
   border: none;
 }
 .top-light.active .top-light-light {
@@ -106,11 +106,11 @@
   border: none;
 }
 .top-light.active .top-light-rope {
-  background: black;
+  background: #2B2B2B;
   border: none;
 }
 .top-light.active .top-light-circle {
-  background: gray;
+  background: black;
   border: none;
 }
 .top-light.active .top-light-triangle-light {
