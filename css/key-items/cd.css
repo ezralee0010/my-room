@@ -93,6 +93,29 @@
   transform: translate(260px, 230px) skewX(10deg);
 }
 
+.cd-player .music-notes {
+  position: absolute; 
+  width: 100px;
+  border: none;
+  background: transparent;
+  animation: floatNotes 2s ease-in-out infinite;
+  display: none;
+  transform: translate(250px, -85px) scale(0.8);
+}
+
+@keyframes floatNotes {
+  0% {
+    transform: translate(250px, -85px) scale(0.8);
+  }
+  50% {
+    transform: translate(250px, -95px) scale(0.8);
+  }
+  100% {
+    transform: translate(250px, -85px) scale(0.8);
+  }
+}
+
+
 
 .cd-player.active .cd-player-main {
   background-color: #e5e5f7;
@@ -148,4 +171,8 @@
 .cd-player.active .cd-base-2 {
   background: black;
   border: none;
+}
+
+.cd-player.active .music-notes {
+  display: block;
 }
