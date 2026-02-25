@@ -164,6 +164,15 @@
   transform: translate(468px, 360px) rotate(32deg);
 }
 
+.bed .jellycat {
+  position: absolute;
+  height: 100px;
+  border: none;
+  background: transparent;
+  transform: translate(280px, 380px);
+  pointer-events: none;
+  display: none;
+}
 
 
 
@@ -307,4 +316,7 @@
   background-color: #5C4033;
   background-image: linear-gradient(to right, #3f3e3e, #3f3e3e 2px, #5C4033 2px, #5C4033 );
   background-size: 4px 100%;
+}
+.bed.active .jellycat {
+  display: block;
 }

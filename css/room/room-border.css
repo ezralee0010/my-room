@@ -55,14 +55,6 @@
   pointer-events: none;
 }
 
-.room .plant-1 {
-  position: absolute;
-  width: 120px;
-  transform: translate(680px, 540px) scale(3); 
-  display: none; 
-  pointer-events: none;
-}
-
 .room:hover .square-back, 
 .room:hover .wall-l,
 .room:hover .wall-r {
@@ -98,8 +90,5 @@
   stroke: none;
 }
 .room.active .flag {
-  display: block;
-}
-.room.active .plant-1 {
   display: block;
 }
