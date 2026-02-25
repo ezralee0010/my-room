@@ -33,7 +33,10 @@
 .instructions {
   width: 300px;
   max-width: 40%;
+  flex-direction: auto;
   text-align: left;      
   padding: 10px;
   line-height: 1.5;
+  border: 2px solid black;
+  border-radius: 5px;
 }
