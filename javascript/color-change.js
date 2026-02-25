@@ -1,10 +1,5 @@
 document.querySelectorAll('.color').forEach(item => {
-  item.addEventListener('click', (e) => {
-
-    if (e.target.closest('.new-effect')) {
-      return;
-    }
-
+  item.addEventListener('click', () => {
     item.classList.add('active');
   });
 });
