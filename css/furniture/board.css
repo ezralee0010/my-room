@@ -1,0 +1,40 @@
+.board * {
+  background: white;
+  border: 2px solid black;
+}
+
+.board {
+  position: absolute;
+  cursor: pointer;
+}
+
+.board:hover * {
+  background: yellow;
+}
+
+.board .board-main {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  transform: translate(190px, 220px);
+}
+
+.board .board-exterior {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  transform: translate(180px, 210px);
+}
+
+.board.active .board-main {
+  background-image: url("https://img.freepik.com/free-photo/granite-texture_1160-692.jpg?semt=ais_user_personalization&w=740&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.board.active .board-exterior {
+  background: white;
+  border: none;
+}

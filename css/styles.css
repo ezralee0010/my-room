@@ -19,6 +19,30 @@ body {
   background-attachment: fixed;  
 }
 
+.index-h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.index-h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.break-in {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;  
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.break-in:hover {
+  box-shadow: 0 0 20px yellow;
+}
+
 /* Modal Stuff */
 
 #modal {
