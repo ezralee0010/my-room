@@ -114,6 +114,7 @@
   border: none;
 }
 .top-light.active .top-light-triangle-light {
+  opacity: 0.3;
   background: linear-gradient(
     90deg,
     rgba(255, 250, 148, 0.8) 0%,
