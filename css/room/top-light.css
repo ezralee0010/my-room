@@ -20,6 +20,13 @@
   transform: translate(-20px, -160px);
 }
 
+.top-light .switch {
+  position: absolute;
+  border: none;
+  background: transparent;
+  transform: scale(0.3) skewY(-15deg) translate(-410px, 700px);
+}
+
 .top-light .top-light-half-circle-1 {
   position: absolute; 
   height: 30px; 
