@@ -50,7 +50,16 @@
 .room .flag {
   position: absolute;
   width: 120px;
-  transform: translate(-10px, 170px); 
+  transform: translate(-10px, 190px) rotate(-15deg); 
+  display: none;
+  pointer-events: none;
+}
+
+.room .twice {
+  position: absolute;
+  width: 100px;
+  transform: translate(18px, 220px) skewY(-10deg);
+  border: 1px solid black;
   display: none;
   pointer-events: none;
 }
@@ -90,5 +99,8 @@
   stroke: none;
 }
 .room.active .flag {
+  display: block;
+}
+.room.active .twice {
   display: block;
 }
