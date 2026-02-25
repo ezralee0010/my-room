@@ -9,9 +9,9 @@
 }
 
 .laptop {
-  position: absolute, center;
-  cursor: pointer;      
-  transform: translate(-250px, 480px) scaleX(-1) scale(1);
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-130px, 470px);
 }
 
 .laptop .laptop-base {
