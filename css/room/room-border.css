@@ -47,6 +47,20 @@
   transform: translate(300px, 0px);
 }
 
+.room .plant {
+  position: absolute;
+  width: 120px;
+  transform: translate(20px, 30px); 
+  display: none; 
+}
+
+.room .plant-1 {
+  position: absolute;
+  width: 120px;
+  transform: translate(680px, 540px) scale(3); 
+  display: none; 
+}
+
 .room:hover .square-back, 
 .room:hover .wall-l,
 .room:hover .wall-r {
@@ -80,4 +94,10 @@
 .room.active .ceiling {
   fill: #f1d4af;
   stroke: none;
+}
+.room.active .plant {
+  display: block;
+}
+.room.active .plant-1 {
+  display: block;
 }
