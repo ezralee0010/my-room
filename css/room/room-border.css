@@ -47,11 +47,12 @@
   transform: translate(300px, 0px);
 }
 
-.room .plant {
+.room .flag {
   position: absolute;
   width: 120px;
-  transform: translate(20px, 30px); 
-  display: none; 
+  transform: translate(-10px, 170px); 
+  display: none;
+  pointer-events: none;
 }
 
 .room .plant-1 {
@@ -59,6 +60,7 @@
   width: 120px;
   transform: translate(680px, 540px) scale(3); 
   display: none; 
+  pointer-events: none;
 }
 
 .room:hover .square-back, 
@@ -95,7 +97,7 @@
   fill: #f1d4af;
   stroke: none;
 }
-.room.active .plant {
+.room.active .flag {
   display: block;
 }
 .room.active .plant-1 {

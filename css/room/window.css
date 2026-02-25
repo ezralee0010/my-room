@@ -83,7 +83,15 @@
   transform: translate(405px, 400px);
 }
 
-
+.window .plant-2 {
+  position: absolute;
+  width: 120px;
+  border: none;
+  background: transparent;
+  transform: translate(500px, 290px) scale(1.5); 
+  display: none;
+  pointer-events: none;
+}
 
 
 .window.active .window-main-frame {
@@ -136,4 +144,7 @@
     0 -4px 6px rgba(0, 0, 0, 0.4),
     0 4px 6px rgba(0, 0, 0, 0.4); 
   border: none;
+}
+.window.active .plant-2 {
+  display: block;
 }
