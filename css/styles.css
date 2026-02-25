@@ -7,15 +7,6 @@
   flex-direction: column;
 }
 
-#room-page-center {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 * {
   font-family: 'Schoolbell';
 }
@@ -28,19 +19,6 @@ body {
 }
 
 /* Modal Stuff */
-
-.square {
-  width: 100px;
-  height: 100px;
-  background: lightgray;
-  border: 2px solid black;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.square:hover {
-  background: pink;
-}
 
 #modal {
   display: none;

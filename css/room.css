@@ -10,3 +10,20 @@
   position: relative;
   overflow: hidden;
 }
+
+#room-page-center {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color-my-room {
+  
+}
+
+.instructions {
+  
+}
