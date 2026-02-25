@@ -44,6 +44,16 @@
   border: none;
   transform: translate(-50px, 580px) scale(3); 
 }
+.table .coat-rack {
+  position: absolute;
+  width: 50px;
+  pointer-events: none;
+  background: transparent;
+  border: none;
+  display: none;
+  transform: translate(710px, 500px) scale(3); 
+}
+
 
 .table.active .table-top {
   background: repeating-linear-gradient(45deg, #76605f, #76605f 5px, #423736 5px, #423736 25px);
@@ -60,5 +70,8 @@
   border: none;
 }
 .table.active .plant-1 {
+  display: block;
+}
+.table.active .coat-rack {
   display: block;
 }
