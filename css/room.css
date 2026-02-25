@@ -1,5 +1,5 @@
 .center-rectangle {
-  flex: 1; 
+  flex: none;
   height: 740px;
   width: 740px;
   border: 2px solid black;
@@ -10,15 +10,11 @@
   padding: 20px;
   position: relative;
   overflow: hidden;
-  flex-shrink: 0;
-  min-width: 740px;
-  min-height: 740px;
 }
 
 #room-page-center {
-  margin: 0;
+  margin: 50px;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
