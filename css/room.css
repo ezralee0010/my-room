@@ -7,13 +7,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
   position: relative;
   overflow: hidden;
 }
 
 #room-page-center {
-  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -21,9 +19,7 @@
 
 .color-my-room {
   padding: 30px;
-  width: 100%;
   text-align: center;
-  margin: 0;
 }
 
 .room-instructions-wrapper {
@@ -35,7 +31,7 @@
 }
 
 .instructions {
-  width: 300px;        
+  width: 100px;        
   max-width: 40%;       
   text-align: left;      
   padding: 10px;

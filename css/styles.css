@@ -1,6 +1,4 @@
 #front-page-center {
-  margin: 0;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,19 +9,12 @@
   font-family: 'Schoolbell';
 }
 
-html, body {
-  height: 100%;          /* ensures html and body stretch */
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-image: url("https://img.freepik.com/free-vector/pastel-coloured-hand-painted-watercolour-background_1048-19244.jpg?semt=ais_user_personalization&w=740&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  min-height: 100vh;           
 }
 
 /* Modal Stuff */
