@@ -61,7 +61,13 @@ const data = {
     pages: [
       'hi'
     ]
-  }
+  },
+  lights: {
+    title: 'Lights',
+    pages: [
+      'hi'
+    ]
+}
 }
 
 // State
