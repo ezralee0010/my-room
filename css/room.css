@@ -1,4 +1,5 @@
 .center-rectangle {
+  flex: 1; 
   height: 740px;
   width: 740px;
   border: 2px solid black;
