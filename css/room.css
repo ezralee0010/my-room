@@ -33,7 +33,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1250px) {
   .room-instructions-wrapper {
     justify-content: flex-start;
   }
@@ -66,8 +66,7 @@
   text-decoration: underline;
 }
 
-.leave-room {
-  width: 200px;
-  min-width: 200px;
-  margin-bottom: 10px;
+.leave-the-room {
+  width: 100px;
+  margin-right: 10px;
 }
