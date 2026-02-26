@@ -33,7 +33,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 886px) {
+@media (max-width: 1100px) {
   .room-instructions-wrapper {
     justify-content: flex-start;
   }
@@ -41,7 +41,7 @@
 
 .instructions {
   width: 300px;
-  max-width: 40%;
+  min-width: 300px;
   flex-direction: auto;
   text-align: left;      
   padding: 10px;
@@ -54,7 +54,6 @@
   color: red;
   font-size: 25px;
   font-weight: bold;
-  border: 2px dashed black;
   padding: 4px;
 }
 
@@ -68,5 +67,6 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 20%;
+  margin-bottom: 10px;
 }

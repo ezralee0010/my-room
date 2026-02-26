@@ -104,7 +104,7 @@
 }
 
 .top-light:hover .switch {
-  background-color: yellow;
+  filter: brightness(0) saturate(100%) invert(84%) sepia(72%) saturate(500%) hue-rotate(10deg);
 }
 
 .top-light.active .top-light-half-circle-1 {
@@ -145,4 +145,7 @@
 }
 .top-light.active .dark {
   display: none;
+}
+.top-light.active .switch {
+  filter: none;
 }
