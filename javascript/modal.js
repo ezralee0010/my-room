@@ -16,15 +16,19 @@ const data = {
     title: 'Some internet stuff',
     pages: [
       'Unfortunately, there are various pieces of media of mine that are posted online. Some I am proud of, others I would rather not discuss. This is a collection of some of those pieces. I hope no one sees these…',
-      'CSS Art from my MADD 23631 class <br><br> <iframe src="https://ezralee0010.github.io/css-art/" width="300" height="300" frameborder="0" allowfullscreen=""> </iframe>', 
-      'This random visual novel I made based off of a story I wrote for my high school newspaper <br><br> <iframe frameborder="0" src="https://itch.io/embed-upload/7878672?color=333333" allowfullscreen="" width="640" height="370"><a href="https://ezralee.itch.io/dating-sim-new-student-at-stuy">Play Dating Simulator</a></iframe>',
-      'Some articles from back in the days <br><br> <iframe src="https://stuyspec.com/staff/ezra-lee" width="300" height="300" frameborder="0" allowfullscreen=""> </iframe>'
+      'CSS Art from my MADD 23631 class <br><br> <iframe src="https://ezralee0010.github.io/css-art/" width="100%" height="500px" frameborder="0" allowfullscreen=""> </iframe>', 
+      'This random visual novel I made based off of a story I wrote for my high school newspaper <br><br> <iframe frameborder="0" src="https://itch.io/embed-upload/7878672?color=333333" allowfullscreen="" width="100%" height="300"><a href="https://ezralee.itch.io/dating-sim-new-student-at-stuy">Play Dating Simulator</a></iframe>',
+      'Some articles from back in the days <br><br> <iframe src="https://stuyspec.com/staff/ezra-lee" width="100%" height="500" frameborder="0" allowfullscreen=""> </iframe>'
     ]
   },
   cd: {
     title: 'music stuff',
     pages: [
-      'hi'
+      'I have horrible music taste. Yes, I repeat Spotify’\s Today’\s Top Hits playlist on the daily.',
+      'Laufey <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Yq6qkq_TWAM" frameborder="0" allow="autoplay"></iframe>',
+      'beabadoobee <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/HwQcYL3Cpm0" frameborder="0" allow="autoplay"></iframe>',
+      'wave to earth <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Q49pnA4jsp8" frameborder="0" allow="autoplay"></iframe>',
+      'Ravyn Lenae <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/xD0Q8ZMfZck" frameborder="0" allow="autoplay"></iframe>'
     ]
   },
   rug: {
