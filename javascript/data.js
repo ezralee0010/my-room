@@ -57,9 +57,9 @@ const data = {
     ]
   },
   wall: {
-    title: 'Walls',
+    title: 'The Walls',
     pages: [
-      'hi'
+      'There isn’t much going on here. Some posters here and there.'
     ]
   },
   window: {

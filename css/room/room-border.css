@@ -104,3 +104,13 @@
 .room.active .twice {
   display: block;
 }
+
+.room.active:hover .square-back, 
+.room.active:hover .wall-l,
+.room.active:hover .wall-r {
+  background: violet;
+}
+.room.active:hover .ceiling,
+.room.active:hover .floor {
+  fill: violet;
+}

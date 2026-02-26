@@ -109,3 +109,7 @@
   background: skyblue; 
   border: none;
 }
+
+.journal.active:hover * {
+  background: violet;
+}

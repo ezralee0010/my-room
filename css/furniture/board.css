@@ -50,3 +50,6 @@
     0 0/calc(var(--s)/2) calc(var(--s)/2);
   border: none;
 }
+.board.active:hover * {
+  background: violet;
+}

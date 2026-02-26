@@ -111,3 +111,7 @@
   background: black; 
   border: none;
 }
+
+.laptop.active:hover * {
+  background: violet;
+}

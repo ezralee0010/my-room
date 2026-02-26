@@ -19,3 +19,6 @@
   background-position: center center; 
   border: none;
 }
+.rug.active:hover {
+  background: violet;
+}

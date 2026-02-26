@@ -76,3 +76,9 @@
 .table.active .coat-rack {
   display: block;
 }
+
+.table.active:hover .table-top,
+.table.active:hover .table-top-left,
+.table.active:hover .table-top-right {
+  background: violet;
+}

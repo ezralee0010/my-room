@@ -15,7 +15,7 @@
   height: 900px;
   width: 900px;
   border: none;
-  background: black;
+  background: transparent;
   opacity: 0.9;
   transform: translate(-20px, -160px);
 }
@@ -148,4 +148,14 @@
 }
 .top-light.active .switch {
   filter: none;
+}
+
+.top-light.active:hover .top-light-half-circle-1,
+.top-light.active:hover .top-light-half-circle-2,
+.top-light.active:hover .top-light-side-1,
+.top-light.active:hover .top-light-side-2,
+.top-light.active:hover .top-light-light,
+.top-light.active:hover .top-light-rope,
+.top-light.active:hover .top-light-circle {
+  background: violet;
 }

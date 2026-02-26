@@ -173,7 +173,21 @@
   background: black;
   border: none;
 }
-
 .cd-player.active .music-notes {
   display: block;
+}
+
+.cd-player.active:hover .cd-player-main,
+.cd-player.active:hover .cd,
+.cd-player.active:hover .cd-player-indent,
+.cd-player.active:hover .cd-center,
+.cd-player.active:hover .cd-body-back-main,
+.cd-player.active:hover .cd-body-back-square-top,
+.cd-player.active:hover .cd-body-back-square-bottom,
+.cd-player.active:hover .cd-base-1,
+.cd-player.active:hover .cd-base-2,
+.cd-player.active:hover 
+.cd-player.active:hover 
+{
+  background: violet;
 }

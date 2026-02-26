@@ -320,3 +320,26 @@
 .bed.active .jellycat {
   display: block;
 }
+.bed.active:hover .bed-back-pillar-1,
+.bed.active:hover .bed-back-pillar-2,
+.bed.active:hover .bed-frame,
+.bed.active:hover .bed-frame-bottom,
+.bed.active:hover .bed-frame-end, 
+.bed.active:hover .mattress,
+.bed.active:hover .blanket,
+.bed.active:hover .pillow-1,
+.bed.active:hover .pillow-2,
+.bed.active:hover .back-frame-3d-1,
+.bed.active:hover .back-frame-3d-2,
+.bed.active:hover .back-frame-3d-square-3,
+.bed.active:hover .back-frame-3d-square-4,
+.bed.active:hover .back-frame-3d-square-5,
+.bed.active:hover .bed-frame-end-3d-square-6,
+.bed.active:hover .bed-frame-end-3d-square-7,
+.bed.active:hover .bed-frame-end-3d-square-8,
+.bed.active:hover .bed-frame-end-3d-pillar-9,
+.bed.active:hover .bed-frame-end-3d-pillar-10,
+.bed.active:hover .bed-frame-end-3d-square-11,
+.bed.active:hover .bed-frame-end-3d-square-12 {
+  background: violet;
+}

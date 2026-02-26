@@ -152,3 +152,17 @@
   background: gray;
   border: none;
 }
+
+.projector.active:hover .projector-spine,
+.projector.active:hover .projector-body, 
+.projector.active:hover .projector-circle,
+.projector.active:hover .projector-lens, 
+.projector.active:hover .screen-circle-top,
+.projector.active:hover .screen-pipe-top {
+  background: violet;
+}
+
+.projector.active:hover .screen-main,
+.projector.active:hover .screen-white-part {
+  fill: violet;
+}

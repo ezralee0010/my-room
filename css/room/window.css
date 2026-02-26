@@ -148,3 +148,16 @@
 .window.active .plant-2 {
   display: block;
 }
+
+.window.active:hover .window-main-frame,
+.window.active:hover .window-border-1,
+.window.active:hover .window-glass,
+.window.active:hover .window-middle-beam,
+.window.active:hover .window-panel-1,
+.window.active:hover .window-panel-2,
+.window.active:hover .window-panel-3,
+.window.active:hover .window-panel-4,
+.window.active:hover .window-base-1,
+.window.active:hover .window-base-2 {
+  background: violet;
+}
