@@ -65,12 +65,22 @@
   transform: translate(620px, 50px);
 }
 
-.projector .screen-white-part {
+.projector .screen-video-wrapper {
   position: absolute;
-  fill: white;
-  stroke: black;
-  stroke-width: 0.5;
+  width: 300px;
+  height: 400px;
+
+  clip-path: polygon(3% 25%, 80% 0%, 100% 105%, 2% 72%);
+  display: none;
+  pointer-events: none;
   transform: translate(620px, 50px);
+}
+
+.projector .screen-video-wrapper iframe {
+  position: absolute;
+  width: 250%;
+  height: 100%;
+  transform: translateX(-30%);
 }
 
 .projector .screen-circle-top {
@@ -131,9 +141,8 @@
   fill: black;
   stroke: none;
 }
-.projector.active .screen-white-part {
-  fill: url(#catImage);
-  stroke: none;
+.projector.active .screen-video-wrapper {
+  display: block;
 }
 .projector.active .screen-circle-top {
   background: gray;
