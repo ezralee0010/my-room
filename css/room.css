@@ -33,6 +33,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 886px) {
+  .room-instructions-wrapper {
+    justify-content: flex-start;
+  }
+}
+
 .instructions {
   width: 300px;
   max-width: 40%;
