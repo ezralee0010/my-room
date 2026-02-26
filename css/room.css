@@ -48,6 +48,7 @@
   line-height: 1.5;
   border: 2px solid black;
   border-radius: 5px;
+  font-size: 15.9px;
 }
 
 .read-this-first {
@@ -55,6 +56,8 @@
   font-size: 25px;
   font-weight: bold;
   padding: 4px;
+  display: block; 
+  text-align: center; 
 }
 
 .instructions-header {
@@ -64,9 +67,7 @@
 }
 
 .leave-room {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 20%;
+  width: 200px;
+  min-width: 200px;
   margin-bottom: 10px;
 }
