@@ -65,7 +65,7 @@ const data = {
   window: {
     title: 'Window',
     pages: [
-      'hi'
+      'Sitting by the kitchen window, I work on my homework at the table beside it as the church bells ring from the Catholic church across the street. Every day, at every hour, they play a new pop song. My mom is cooking in the kitchen, and I watch the big tree in the front yard sway gently. A breeze slowly drifts through the windows. <br<br> This is the earliest childhood memory I have. <br><br> The view out in the window has always been what I notice most. In Paris, it was the garden view; in Chicago, the cars breezed through the Midway; in Seoul, the workers returned from a drink. <br><br> I love windows.'
     ]
   },
   lights: {
