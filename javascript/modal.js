@@ -6,7 +6,10 @@ const data = {
       'Some museums in Paris <br><br> <img src="images/journal-images/IMG_9732.jpeg">',
       'Versailles <br><br> <img src="images/journal-images/IMG_9735.jpeg">',
       'Paris <br><br> <img src="images/journal-images/IMG_9734.jpeg">',
-      'Mainz <br><br> <img src="images/journal-images/IMG_9737.jpeg">'
+      'Mainz <br><br> <img src="images/journal-images/IMG_9737.jpeg">',
+      'Rome + Vatican City <br><br> <img src="images/journal-images/IMG_9740.jpeg">',
+      'French Cities <br><br> <img src="images/journal-images/IMG_9736.jpeg">',
+      'Prague <br><br> <img src="images/journal-images/IMG_9741.jpeg">'
     ]
   },
   game: {
