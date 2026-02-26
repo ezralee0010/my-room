@@ -15,7 +15,7 @@
   height: 900px;
   width: 900px;
   border: none;
-  background: transparent;
+  background: black;
   opacity: 0.9;
   transform: translate(-20px, -160px);
 }
