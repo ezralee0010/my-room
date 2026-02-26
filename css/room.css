@@ -48,7 +48,7 @@
   line-height: 1.5;
   border: 2px solid black;
   border-radius: 5px;
-  font-size: 15.9px;
+  font-size: 15px;
 }
 
 .read-this-first {
@@ -79,9 +79,17 @@
   text-align: center;     
 }
 
+.button-link {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
 .leave-the-room {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
   width: 200px;
-  margin-right: 10px;
 }
 
 .modal-link {
