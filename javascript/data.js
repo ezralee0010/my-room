@@ -25,11 +25,11 @@ const data = {
     title: 'Music',
     pages: [
       'I have horrible music taste. Yes, I repeat Spotify\’s Today\’s Top Hits playlist on the daily. Yes, I only know the mainstream stuff. But here are some featured songs and artists anyway.',
-      'Laufey <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Yq6qkq_TWAM" frameborder="0"></iframe>',
-      'PinkPantheress + Zara Larsson <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/lIxQe1R5hs0" frameborder="0"></iframe>',
-      'beabadoobee <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/HwQcYL3Cpm0" frameborder="0"></iframe>',
-      'wave to earth <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Q49pnA4jsp8" frameborder="0"></iframe>',
-      'Ravyn Lenae <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/xD0Q8ZMfZck" frameborder="0"></iframe>'
+      'Laufey <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Yq6qkq_TWAM?autoplay=1&loop=1" allow="autoplay; encrypted-media" frameborder="0"></iframe>',
+      'PinkPantheress + Zara Larsson <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/lIxQe1R5hs0?autoplay=1&loop=1" allow="autoplay; encrypted-media" frameborder="0"></iframe>',
+      'beabadoobee <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/HwQcYL3Cpm0?autoplay=1&loop=1" allow="autoplay; encrypted-media" frameborder="0"></iframe>',
+      'wave to earth <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/Q49pnA4jsp8?autoplay=1&loop=1" allow="autoplay; encrypted-media" frameborder="0"></iframe>',
+      'Ravyn Lenae <br><br> <iframe width="100%" height="300" src="https://www.youtube.com/embed/xD0Q8ZMfZck?autoplay=1&loop=1" allow="autoplay; encrypted-media" frameborder="0"></iframe>'
     ]
   },
   rug: {
