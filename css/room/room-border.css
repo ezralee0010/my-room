@@ -14,7 +14,7 @@
   position: absolute;
   fill: white;
   stroke: black;
-  stroke-width: 0.2;
+  stroke-width: 0.1;
   transform: translate(-70px, -410px);
 }
 
@@ -64,6 +64,15 @@
   pointer-events: none;
 }
 
+.room .fairy {
+  position: absolute;
+  width: 100px;
+  transform: translate(638px, 330px) skewY(20deg);
+  border: 1px solid black;
+  display: none;
+  pointer-events: none;
+}
+
 .room:hover .square-back, 
 .room:hover .wall-l,
 .room:hover .wall-r {
@@ -104,13 +113,19 @@
 .room.active .twice {
   display: block;
 }
+.room.active .fairy {
+  display: block;
+}
 
 .room.active:hover .square-back, 
 .room.active:hover .wall-l,
 .room.active:hover .wall-r {
   background: violet;
+  border: 2px solid black;
 }
 .room.active:hover .ceiling,
 .room.active:hover .floor {
   fill: violet;
+  stroke: black;
+  stroke-width: 0.1;
 }
