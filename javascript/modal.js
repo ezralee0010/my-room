@@ -62,3 +62,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.querySelectorAll('.proj').forEach(setupClicks)
 })
+
+document.querySelectorAll(".modal-link").forEach(button => {
+  button.addEventListener("click", function() {
+    const targetId = this.dataset.target;
+    const element = document.getElementById(targetId);
+
+    if (element) {
+      element.click();
+    }
+  });
+});
