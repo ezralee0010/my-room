@@ -15,9 +15,10 @@ const data = {
   game: {
     title: 'Some internet stuff',
     pages: [
-      'Unfortunately, there are various pieces of media that are posted online. Some I am proud of, others I would rather not discuss. I’ve accumulated some pieces I think you as my audience might enjoy. Hopefully… No promises.',
+      'Unfortunately, there are various pieces of media of mine that are posted online. Some I am proud of, others I would rather not discuss. This is a collection of some of those pieces. I hope no one sees these…',
       'CSS Art from my MADD 23631 class <br><br> <iframe src="https://ezralee0010.github.io/css-art/" width="300" height="300" frameborder="0" allowfullscreen=""> </iframe>', 
-      'This random visual novel I made based off of a story I wrote for my high school newspaper <br><br> <iframe frameborder="0" src="https://itch.io/embed-upload/7878672?color=333333" allowfullscreen="" width="640" height="370"><a href="https://ezralee.itch.io/dating-sim-new-student-at-stuy">Play Dating Simulator</a></iframe>'
+      'This random visual novel I made based off of a story I wrote for my high school newspaper <br><br> <iframe frameborder="0" src="https://itch.io/embed-upload/7878672?color=333333" allowfullscreen="" width="640" height="370"><a href="https://ezralee.itch.io/dating-sim-new-student-at-stuy">Play Dating Simulator</a></iframe>',
+      'Some articles from back in the days <br><br> <iframe src="https://stuyspec.com/staff/ezra-lee" width="300" height="300" frameborder="0" allowfullscreen=""> </iframe>'
     ]
   },
   cd: {

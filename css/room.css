@@ -1,20 +1,6 @@
-.center-rectangle {
-  flex: none;
-  height: 740px;
-  width: 740px;
-  border: 2px solid black;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  overflow: hidden;
-}
-
 #room-page-center {
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .color-my-room {
@@ -24,6 +10,7 @@
 
 .warning {
   font-size: 20px;
+  color: red;
 }
 
 .room-instructions-wrapper {
@@ -32,6 +19,18 @@
   gap: 20px;
   justify-content: center;
   align-items: flex-start;
+}
+
+.center-rectangle {
+  flex: none;
+  height: 740px;
+  width: 740px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
 }
 
 .instructions {
@@ -43,4 +42,18 @@
   line-height: 1.5;
   border: 2px solid black;
   border-radius: 5px;
+}
+
+.read-this-first {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px dashed black;
+  padding: 4px;
+}
+
+.instructions-header {
+  font-weight: bold;
+  color: darkblue;
+  text-decoration: underline;
 }
