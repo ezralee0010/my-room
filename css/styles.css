@@ -11,22 +11,10 @@
   font-family: 'Schoolbell';
 }
 
-.house-square {
+.house {
   position: absolute;
-  height: 400px;
-  width: 495.9px;
-  background: transparent;
-  border: 2px solid black;
-}
-
-.house-triangle {
-  position: absolute;
-  width: 500px;
-  height: 200px;
-  top: 77px;
-  fill: transparent;
-  stroke: black;
-  stroke-width: 2;
+  transform: scale(0.6) translate(-50px, -160px);
+  z-index: -1;
 }
 
 body {
