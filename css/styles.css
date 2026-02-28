@@ -11,6 +11,24 @@
   font-family: 'Schoolbell';
 }
 
+.house-square {
+  position: absolute;
+  height: 400px;
+  width: 495.9px;
+  background: transparent;
+  border: 2px solid black;
+}
+
+.house-triangle {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  top: 77px;
+  fill: transparent;
+  stroke: black;
+  stroke-width: 2;
+}
+
 body {
   background-image: url("https://img.freepik.com/free-vector/pastel-coloured-hand-painted-watercolour-background_1048-19244.jpg?semt=ais_user_personalization&w=740&q=80");
   background-size: cover;
